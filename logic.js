@@ -97,8 +97,7 @@ var satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
     ],
     zoom: 2.5,
     layers: [darkmap, earthquakes]
-  });
-                              
+  });                        
                
       L.control.layers(baseMaps, overlayMaps).addTo(myMap);
                                  
