@@ -101,4 +101,4 @@ var satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
                
       L.control.layers(baseMaps, overlayMaps).addTo(myMap);
                                  
-    }
+    } 
