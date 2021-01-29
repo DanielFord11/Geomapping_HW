@@ -75,7 +75,7 @@ var satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
     maxZoom: 18,
     id: "dark-v10",
     accessToken: API_KEY
-  });
+  }); 
     
     
   // Define a baseMaps object to hold our base layers
